@@ -1,0 +1,36 @@
+{
+  "name": "react-tablegen",
+  "version": "1.0.1",
+  "description": "A react component that accepts data, allows you to select which information from the data to be printed on the table, gives the user the ability to sort the data, and allows the developer to pass in custom components for the table foot and head.",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "babel lib/index.jsx --out-file index.js"
+  },
+  "keywords": [
+    "table",
+    "react",
+    "generator"
+  ],
+  "author": "Abdul Amoud",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdu997/react-tablegen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abdu997/react-tablegen/issues"
+  },
+  "homepage": "https://github.com/abdu997/react-tablegen#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.8.6",
+    "react-number-format": "^4.0.8"
+  }
+}
