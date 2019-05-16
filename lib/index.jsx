@@ -74,14 +74,14 @@ class TableGen extends React.Component {
                               <td
                                 key={index}
                               >
-                                {
+                                 {
                                   (
-                                    isNaN(row[key]) ?
-                                    row[key] :
-                                    <NumberFormat
-                                      value={row[key]}
-                                      displayType={'text'} thousandSeparator={true}
-                                    />
+                                    Number.isInteger(row[key])
+                                    ? <NumberFormat
+                                        value={row[key]}
+                                        displayType={'text'} thousandSeparator={true}
+                                      />
+                                    : row[key].toString()
                                   )
                                 }
                               </td>
