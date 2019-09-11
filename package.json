@@ -1,6 +1,6 @@
 {
   "name": "react-tablegen",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A react component that accepts data, allows you to select which information from the data to be printed on the table, gives the user the ability to sort the data, and allows the developer to pass in custom components for the table foot and head.",
   "main": "index.js",
   "scripts": {
