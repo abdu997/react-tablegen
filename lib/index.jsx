@@ -81,7 +81,7 @@ class TableGen extends React.Component {
                                         value={row[key]}
                                         displayType={'text'} thousandSeparator={true}
                                       />
-                                    : row[key].toString()
+                                    : (row[key] ? row[key].toString() : "null")
                                   )
                                 }
                               </td>
